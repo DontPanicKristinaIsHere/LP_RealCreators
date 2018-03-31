@@ -1,0 +1,52 @@
+/*==========  Desktop First  ==========*/
+/* Large Devices, Wide Screens */
+/**/
+/* Medium Devices, Desktops */
+/**/
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  .button {
+    font-size: 18px; }
+  .buttoncase {
+    grid-column: 1 / 4; }
+  .header_content {
+    padding: 40px 20px; }
+    .header_content h1 {
+      font-size: 45px; }
+  .portfolio-section {
+    grid-template-columns: repeat(3, 1fr); }
+  .portfolio-item {
+    min-height: 40vh;
+    font-size: 16px; }
+    .portfolio-item:nth-child(4) {
+      grid-column-start: 2;
+      grid-column-end: 4; }
+    .portfolio-item:nth-child(5) {
+      grid-column-start: 1;
+      grid-column-end: 3;
+      grid-row: initial; }
+    .portfolio-item:nth-child(6) {
+      grid-column-start: initial;
+      grid-row: initial; } }
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+  .header_content h1 {
+    font-size: 28px; }
+  .header_content .header_buttons {
+    margin-top: 40px; }
+  .header_content .button {
+    padding: 10px 40px; } }
+
+/* Custom, iPhone Retina */
+/**/
+/*==========  Mobile First  ==========*/
+/* Custom, iPhone Retina */
+/**/
+/* Extra Small Devices, Phones */
+/**/
+/* Small Devices, Tablets */
+/**/
+/* Medium Devices, Desktops */
+/* Large Devices, Wide Screens */
+/**/
